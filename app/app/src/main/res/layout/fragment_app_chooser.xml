@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="de.chirtz.armband.filter.AppChooserDialogFragment">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar"
+        android:indeterminate="true"
+        android:indeterminateOnly="true"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:text="@string/select_app"
+        android:id="@+id/title"
+        android:layout_alignParentStart="true"/>
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="2dp"
+        android:background="#cccccc"
+        android:layout_below="@+id/title"/>
+
+    <ListView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/app_list"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+        android:layout_below="@+id/separator" />
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android.support.v7.cardview="http://schemas.android.com/apk/res-auto">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/filter_card_margin_half"
+    android:layout_marginLeft="@dimen/filter_card_margin"
+    android:layout_marginRight="@dimen/filter_card_margin"
+    android:layout_marginBottom="@dimen/filter_card_margin"
+    android.support.v7.cardview:cardElevation="@dimen/filter_card_elevation"
+    android.support.v7.cardview:contentPadding="@dimen/filter_card_inner_padding">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/filter_effects">
+
+        <TableRow android:layout_margin="@dimen/dialog_element_margin">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:textStyle="italic"
+                android:gravity="center_horizontal"
+                android:text="@string/filter_effects"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.v7.widget.CardView>
+
+    </merge>

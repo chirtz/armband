@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidElementNotAllowed -->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/device_settings">
+
+        <de.chirtz.armband.common.NumberPreference
+            android:key="@string/PREFERENCE_DEVICE_ID"
+            android:title="@string/preference_device_id"
+            android:summary="@string/preference_device_id_summary"
+            android:defaultValue="3514"/>
+
+        <CheckBoxPreference
+            android:key="@string/PREFERENCE_LIGHT"
+            android:title="@string/preference_light"
+            android:summary="@string/preference_light_summary"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:key="@string/PREFERENCE_GESTURE"
+            android:title="@string/preference_gesture"
+            android:summary="@string/preference_gesture_summary"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="@string/PREFERENCE_ENGLISH_UNITS"
+            android:title="@string/preference_english_units"
+            android:summary="@string/preference_english_units_summary"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="@string/PREFERENCE_24HOUR"
+            android:title="@string/preference_24hour"
+            android:summary="@string/preference_24hour_summary"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="@string/PREFERENCE_AUTO_SLEEP"
+            android:title="@string/preference_auto_sleep"
+            android:summary="@string/preference_auto_sleep_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/user_settings">
+
+
+        <de.chirtz.armband.common.NumberPreference
+            android:key="@string/USER_PREFERENCE_HEIGHT"
+            android:title="@string/user_preference_height"
+            android:summary="@string/user_preference_height_summary"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:defaultValue="175"/>
+        <de.chirtz.armband.common.NumberPreference
+            android:key="@string/USER_PREFERENCE_WEIGHT"
+            android:title="@string/user_preference_weight"
+            android:summary="@string/user_preference_weight_summary"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:defaultValue="70"/>
+        <ListPreference
+            android:key="@string/USER_PREFERENCE_GENDER"
+            android:title="@string/user_preference_gender"
+            android:summary="@string/user_preference_gender_summary"
+            android:entries="@array/user_preference_gender_options"
+            android:entryValues="@array/user_preference_gender_options"
+            android:defaultValue="male"/>
+        <de.chirtz.armband.common.NumberPreference
+            android:key="@string/USER_PREFERENCE_AGE"
+            android:title="@string/user_preference_age"
+            android:summary="@string/user_preference_age_summary"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:defaultValue="25"/>
+        <de.chirtz.armband.common.NumberPreference
+            android:key="@string/USER_PREFERENCE_STEP_GOAL"
+            android:title="@string/user_preference_step_goal"
+            android:summary="@string/user_preference_step_goal_summary"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:defaultValue="5000"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

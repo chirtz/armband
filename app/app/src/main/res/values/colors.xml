@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="primaryDarkDefault">#111111</color>
+        <color name="primaryDarkDisconnected">#771111</color>
+        <color name="primaryColor">#0288d1</color>
+        <color name="tabColor">#0287d1</color>
+        <color name="tabColorSelected">#ffffff</color>
+        <color name="listItemText">#333333</color>
+        <color name="undoLayoutGrey">#aaaaaa</color>
+        <color name="modifyFilterBackground">#aaaaaa</color>
+</resources>
+

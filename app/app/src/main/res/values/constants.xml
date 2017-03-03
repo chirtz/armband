@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="minFilterItemHeight">40dp</dimen>
+    <string name="PREFERENCE_LIGHT" translatable="false">preference_light</string>
+    <string name="PREFERENCE_GESTURE" translatable="false">preference_gesture</string>
+    <string name="PREFERENCE_ENGLISH_UNITS" translatable="false">preference_english_units</string>
+    <string name="PREFERENCE_24HOUR" translatable="false">preference_24hour</string>
+    <string name="PREFERENCE_AUTO_SLEEP" translatable="false">preference_autosleep</string>
+    <string name="PREFERENCE_DEVICE_ID" translatable="false">preference_device_id</string>
+
+    <string name="USER_PREFERENCE_GENDER" translatable="false">user_preference_gender</string>
+    <string name="USER_PREFERENCE_WEIGHT" translatable="false">user_preference_weight</string>
+    <string name="USER_PREFERENCE_HEIGHT" translatable="false">user_preference_height</string>
+    <string name="USER_PREFERENCE_AGE" translatable="false">user_preference_age</string>
+    <string name="USER_PREFERENCE_STEP_GOAL" translatable="false">user_preference_step_goal</string>
+
+</resources>

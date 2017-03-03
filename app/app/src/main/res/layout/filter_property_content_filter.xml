@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TableRow android:layout_margin="@dimen/dialog_element_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:labelFor="@+id/enableFilterSwitch"
+            android:text="@string/activate_filter"
+            tools:context=".MainActivity"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+        <Switch
+            android:id="@+id/enableFilterSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|start"
+            android:text=""
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:layout_marginStart="@dimen/dialog_element_margin"/>
+    </TableRow>
+
+    <TableRow android:layout_margin="@dimen/dialog_element_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/matchTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:labelFor="@+id/stringFilterTitleEdit"
+            android:text="@string/filter_title"
+            tools:context=".MainActivity"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+        <EditText
+            android:id="@+id/stringFilterTitleEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:layout_marginStart="@dimen/dialog_element_margin"/>
+    </TableRow>
+
+    <TableRow android:layout_margin="@dimen/dialog_element_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/matchContentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:labelFor="@+id/stringFilterContentEdit"
+            android:text="@string/filter_content"
+            tools:context=".MainActivity"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+        <EditText
+            android:id="@+id/stringFilterContentEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:layout_marginStart="@dimen/dialog_element_margin"
+            android:imeOptions="actionDone"/>
+
+    </TableRow>
+
+
+
+</merge>

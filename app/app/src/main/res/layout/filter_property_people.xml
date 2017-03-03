@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<TableRow
+    android:layout_margin="@dimen/dialog_element_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:labelFor="@+id/prioritySpinner"
+            android:text="@string/match_person"
+            tools:context=".MainActivity"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    <Button
+        android:id="@+id/peopleButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start|center_vertical"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/dialog_element_margin"/>
+
+    </TableRow>
+    </merge>

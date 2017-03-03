@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Armband</string>
+
+    <string name="notification_service">Armband Notification Service</string>
+    <string name="lbl_device_name">Device name:</string>
+    <string name="lbl_device_model">Device model:</string>
+    <string name="lbl_address">Address:</string>
+    <string name="lbl_power">Power:</string>
+    <string name="lbl_firmware">Firmware:</string>
+    <string name="tab_device">Device</string>
+    <string name="tab_filters">Filters</string>
+    <string name="tab_preferences">Preferences</string>
+    <string name="tab_alarms">Alarms</string>
+    <string name="dummy">n/a</string>
+    <string name="enable_notifications_title">Activate notifications</string>
+    <string name="enable_notifications_message">Please enable access to Android\'s notifications in the settings.</string>
+    <string name="enable_location_title">Activate location services</string>
+    <string name="enable_location_message">Please enable location services. They are necessary for a proper Bluetooth Low Energy operation.</string>
+    <string name="permission_access_title">Permission access request</string>
+    <string name="permission_access_message">The app needs access to the coarse location (for Bluetooth LE) and for reading contacts (for notification filtering) to work properly.</string>
+    <string name="connect_disconnect">Connect/Disconnect</string>
+    <string name="select_app">Select app</string>
+    <string name="error">Error</string>
+    <string name="error_app_name_missing">App name missing!</string>
+    <string name="select_person">Select person</string>
+    <string name="add_filter">Add filter</string>
+    <string name="change_filter">Change filter</string>
+    <string name="save">Save</string>
+    <string name="discard">Discard</string>
+    <string name="discard_filter">Discard filter</string>
+    <string name="discard_filter_msg">Are you really sure you want to discard the filter?</string>
+    <string name="delete">Delete</string>
+    <string name="delete_filter">Delete filter</string>
+    <string name="delete_filter_msg">Are you really sure you want to delete the filter?</string>
+    <string name="keep">Keep</string>
+    <string name="app" translatable="false">App</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connecting">Connecting</string>
+    <string name="disconnecting">Disconnecting</string>
+    <string name="accumulate_text">Accumulate Text</string>
+    <string name="min_priority">Min. Priority</string>
+    <string name="match_person">Match person</string>
+    <string name="show_on_display">Show on display</string>
+    <string name="matching_properties">Matching properties</string>
+    <string name="filter_effects">Filter effects</string>
+    <string name="filter_deleted">Filter deleted</string>
+    <string name="undo">Undo</string>
+    <string name="activate_filter">Activate content filter</string>
+    <string name="filter_title">Filter title</string>
+    <string name="filter_content">Filter content</string>
+    <string name="choose_time">Choose alarm time and days</string>
+    <string name="max_alarms_error">The maximum amount of configurable alarms is already reached.</string>
+
+
+    <string name="user_settings">User settings</string>
+    <string name="device_settings">Device settings</string>
+
+
+    <string name="preference_light">Light on message</string>
+    <string name="preference_light_summary">Turn on the LED light when a message is sent</string>
+
+    <string name="preference_gesture">Gesture activation</string>
+    <string name="preference_gesture_summary">Turn on the screen when the wrist is moved</string>
+
+    <string name="preference_english_units">Metric System</string>
+    <string name="preference_english_units_summary">Use the metric system for measurements</string>
+
+    <string name="preference_24hour">24 hour clock</string>
+    <string name="preference_24hour_summary">Show 24 hours instead of 12</string>
+
+    <string name="preference_device_id">Device ID</string>
+    <string name="preference_device_id_summary">Number shown on the device at startup</string>
+
+    <string name="preference_auto_sleep">Automatically set to sleep mode</string>
+    <string name="preference_auto_sleep_summary">Sets the device to sleep mode at night (no notifications, sleep tracking)</string>
+
+    <string name="user_preference_gender">Gender</string>
+    <string name="user_preference_gender_summary">Your gender</string>
+
+    <string name="user_preference_age">Age</string>
+    <string name="user_preference_age_summary">Your age in years</string>
+
+    <string name="user_preference_height">Height</string>
+    <string name="user_preference_height_summary">Your height in centimeters</string>
+
+    <string name="user_preference_weight">Weight</string>
+    <string name="user_preference_weight_summary">Your weight in kilograms</string>
+
+
+    <string name="user_preference_step_goal">Step goal</string>
+    <string name="user_preference_step_goal_summary">The number of steps you would like to make per day</string>
+    <string name="positive_button" translatable="false">OK</string>
+    <string name="negative_button">Cancel</string>
+    <string name="every_day">Every day</string>
+    <string name="error_day_selection">At least one day must be selected</string>
+
+    <array name="display_text_options">
+        <item>Message title</item>
+        <item>Message content</item>
+        <item>Message title+content</item>
+    </array>
+
+    <array name="week_days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </array>
+
+    <array name="user_preference_gender_options">
+        <item>male</item>
+        <item>female</item>
+    </array>
+    <string name="send_test_message">Send test message</string>
+    <string name="battery">battery</string>
+
+
+</resources>
