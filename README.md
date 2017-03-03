@@ -7,3 +7,10 @@
 * Notification filter system for Android notifications, which can be forwarded to the wristband
 * User-definable alarms engaging the vibration motor of the wristband
 * Further custom device settings
+
+## Screenshots
+<img src="screenshots/overview.png" alt="Overview" width="230">
+<img src="screenshots/filters.png" alt="Filters" width="230">
+<img src="screenshots/modify_filter.png" alt="Modify Filter" width="230">
+<img src="screenshots/alarms.png" alt="Alarms" width="230">
+<img src="screenshots/settings.png" alt="Settings" width="230">
